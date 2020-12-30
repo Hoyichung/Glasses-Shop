@@ -1,0 +1,27 @@
+.faq_main{
+    margin-top: 80px;
+    margin-bottom: 304px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 36px;
+    padding: 0;
+}
+
+.qa dl{
+    padding-bottom: 40px;
+}
+
+.qa dt{
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.qa dd{
+    max-width: 920px;
+    margin: 0 auto;
+    font-size: 16px;
+}
