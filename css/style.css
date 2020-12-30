@@ -72,9 +72,16 @@ a{
     margin-left: 16px;
 }
 
-h1{
+.logo{
     display: flex;
     font-size: 48px;
+}
+
+h1{
+    display: flex;
+    font-size: 64px;
+    line-height: 90px;
+    font-weight: bold;
 }
 
 h2{
@@ -85,12 +92,12 @@ h2{
 .locationfilter{
     display: flex;
     align-items: center;
-    padding-top: 8px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 32px;
 }
 
 .locationfilter span{
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .locationfilter select{
@@ -103,10 +110,15 @@ h2{
     opacity: 75%;
 }
 
-.location_list{
+.location_main{
     margin-bottom: 304px;
+}
+
+.location_list{
+    
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -15px;
 }
 .locationitem{
     width: 33.33%;
@@ -114,7 +126,7 @@ h2{
 }
 
 .locationitem img{
-    /* height: 224px; */
+    height: 224px;
     width: 100%;
 }
 .location_title{
@@ -156,6 +168,10 @@ h2{
 
 .detail_btn{
     background-color: #000000;
+}
+
+.detail_btn:hover{
+    background-color: #aa0601;
 }
 
 .detail_btn a{

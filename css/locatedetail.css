@@ -1,0 +1,17 @@
+.store{
+    display: flex;
+    margin-bottom: 304px;
+}
+
+.storeInfo{
+    width: 40%;
+}
+
+.storeInfo img{
+    width: 100%;
+}
+
+.storemap{
+    width: 60%;
+    padding-left: 30px;
+}
